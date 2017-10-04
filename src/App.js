@@ -1,47 +1,100 @@
 import React from 'react'
-// import * as BooksAPI from './BooksAPI'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import HomePage from './HomePage'
 import SearchPage from './SearchPage'
 import NotFoundPage from './NotFoundPage'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import Loading from './Loading'
+
+import * as BooksApi from './BooksApi'
+import {getQueryParam, updateQueryParam} from './util'
+
 import './App.css'
-import {do_, getQueryParam, updateQueryParam} from './util'
 
-const homePage = (books, onChange) => () =>
-      <HomePage books={books} onChange={onChange}/>
+const emptyShelfs = () => ({
+  currentlyReading: [],
+  wantToRead: [],
+  read: []
+})
 
-const searchPage = (books, onChange, onSearch) => ({location: {search}, history}) => (
-  <SearchPage books={books}
-              onChange={onChange}
-              searchTerm={getQueryParam(search, "q")}
-              onSearch={do_((term) => history.replace({search: updateQueryParam(search, "q", term)}), onSearch)}
-    />
-)
 
 class App extends React.Component {
   state = {
-    shelfs: {
-      currentlyReading: [{
-        cover: {
-          width: "128",
-          height: "193",
-          url: "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&imgtk=AFLRE73-GnPVEyb7MOCxDzOYF1PTQRuf6nCss9LMNOSWBpxBrz8Pm2_mFtWMMg_Y1dx92HT7cUoQBeSWjs3oEztBVhUeDFQX6-tWlWz1-feexS0mlJPjotcwFqAg6hBYDXuK_bkyHD-y&source=gbs_api",
-        },
-        title: "To Kill a Mockingbird",
-        authors: ["Harper Lee"],
-        shelf: "wantToRead"
-      }],
-      wantToRead: [],
-      read: []
-    }
+    shelfs: emptyShelfs(),
+    shelfsLoaded: false,
+    lastQuery: "",
+    searchResults: []
   }
 
-  onChangeShelf(book, newShelf) {
+  queryParam = "q"
+  maxResults = 50
+
+  componentDidMount() {
+    // BooksApi.getAll().then((books) => {
+    //   const shelfs = books.reduce((acc, book) => {
+    //     acc[book.shelf].push(book)
+    //     return acc
+    //   }, emptyShelfs())
+
+    //   this.setState({shelfs, fetching: false})
+    // })
+  }
+
+  changeShelf(book, newShelf) {
     console.log(`Moving book ${book.title} to shelf ${newShelf}`);
   }
 
-  onSearchBook(term) {
-    console.log(`Searching for ${term}`);
+  searchBooks(query, history) {
+    if (query !== this.state.lastQuery) {
+      BooksApi.search(query, this.maxResults).then((books) => {
+        const currentQuery = getQueryParam(history.location.search, this.queryParam)
+        if (currentQuery === query) {
+          console.log("this set state");
+          this.setState({searchResults: books || [], lastQuery: currentQuery})
+        }
+      })
+    }
+  }
+
+  updateSearch(query, history) {
+    history.replace({search: updateQueryParam(history.location.search, this.queryParam, query)})
+  }
+
+  loading(condition, message, render) {
+    return condition ? () => <Loading message={message}/> : render.bind(this)
+  }
+
+  renderHomePage() {
+    // BooksApi.getAll().then((books) => {
+    //   const shelfs = books.reduce((acc, book) => {
+    //     acc[book.shelf].push(book)
+    //     return acc
+    //   }, emptyShelfs())
+
+    //   this.setState({shelfs, fetching: false})
+    // })
+    console.log(this.state.shelfsLoaded);
+    if (!this.state.shelfsLoaded) {
+      this.setState({shelfsLoaded: true})
+    }
+    return (
+      <HomePage currentlyReading={this.state.shelfs.currentlyReading}
+                read={this.state.shelfs.read}
+                wantToRead={this.state.shelfs.wantToRead}
+                onChange={this.changeShelf}/>
+    )
+  }
+
+  renderSearchPage({location, history}) {
+    const query = getQueryParam(location.search, this.queryParam)
+    this.searchBooks(query, history)
+
+    return (
+      <SearchPage books={this.state.searchResults}
+                  onChange={this.changeShelf}
+                  query={query}
+                  onSearch={(query) => this.updateSearch(query, history)}
+                  />
+    )
   }
 
   render() {
@@ -49,9 +102,11 @@ class App extends React.Component {
       <BrowserRouter>
         <div className="app">
           <Switch>
-            <Route exact path="/" render={homePage(this.state, this.onChangeShelf)}
+            <Route exact path="/"
+                   render={this.renderHomePage.bind(this)}
                    />
-            <Route exact path="/search" render={searchPage([], this.onChangeShelf, this.onSearchBook)}
+            <Route exact path="/search"
+                   render={this.renderSearchPage.bind(this)}
                    />
             <Route component={NotFoundPage}/>
           </Switch>

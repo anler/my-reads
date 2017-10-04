@@ -3,8 +3,6 @@ export const ignore = (msg) => {
   return () => {}
 }
  
-export const do_ = (...effs) => (...args) => effs.forEach(e => e(...args))
-
 export const getQueryParam = (queryString, param, defaultValue) =>
   (new URLSearchParams(queryString)).get(param) || defaultValue || ""
 

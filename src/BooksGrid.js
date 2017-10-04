@@ -26,10 +26,10 @@ const BooksGrid = ({books, emptyMessage, onChange}) =>
         <p>{emptyMessage || "Empty"}</p>
       )
 
-function cover({cover: {width, height, url}}) {
-  return {width: parseInt(width, 10),
-          height: parseInt(height, 10),
-          backgroundImage: `url(${url})`
+function cover({imageLinks: {thumbnail}}) {
+  return {width: 128,
+          height: 193,
+          backgroundImage: `url(${thumbnail})`
          }
 }
 
@@ -38,7 +38,7 @@ function title({title}) {
 }
 
 function authors({authors}) {
-  return authors.join(", ")
+  return authors ? authors.join(", ") : ""
 }
 
 export default BooksGrid
