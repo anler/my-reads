@@ -1,12 +1,12 @@
 import React from 'react'
 import BooksGrid from './BooksGrid'
 
-const BookShelf = ({shelfTitle, emptyMessage, books, onChange}) => (
+const BookShelf = ({title, emptyMessage, books, onChangeBookShelf}) => (
   <div className="bookshelf">
-    <h2 className="bookshelf-title">{shelfTitle}</h2>
+    <h2 className="bookshelf-title">{title}</h2>
     <div className="bookshelf-books">
       <BooksGrid emptyMessage={emptyMessage}
-                 onChange={onChange}
+                 onChangeBookShelf={onChangeBookShelf}
                  books={books}/>
     </div>
   </div>

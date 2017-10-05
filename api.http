@@ -1,0 +1,27 @@
+# 
+:host = https://reactnd-books-api.udacity.com
+:headers = <<
+Accept: application/json
+Content-Type: application/json
+Authorization: y5dcwg97
+
+# Get a book
+GET :host/books/-id
+:headers
+
+# Get all books
+GET :host/books
+:headers
+
+# Update a book
+PUT :host/books/-id
+:headers
+
+# Search books
+POST :host/search
+:headers
+
+{
+  "query": "Mocking",
+  "maxResults": 20
+}

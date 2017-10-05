@@ -1,7 +1,8 @@
 import React from 'react'
 import BookShelfChanger from './BookShelfChanger'
 
-const BooksGrid = ({books, emptyMessage, onChange}) =>
+
+const BooksGrid = ({books, emptyMessage, onChangeBookShelf}) =>
       books.length > 0 ? (
         <ol className="books-grid">
           {books.map((book, i) => (
@@ -12,7 +13,7 @@ const BooksGrid = ({books, emptyMessage, onChange}) =>
                        style={cover(book)}></div>
                   <div className="book-shelf-changer">
                     <BookShelfChanger book={book}
-                                      onChange={onChange}
+                                      onChangeBookShelf={onChangeBookShelf}
                                       />
                   </div>
                 </div>
@@ -22,9 +23,8 @@ const BooksGrid = ({books, emptyMessage, onChange}) =>
             </li>
           ))}
         </ol>
-      ) : (
-        <p>{emptyMessage || "Empty"}</p>
-      )
+      ) : (<p>{emptyMessage || "Empty"}</p>)
+
 
 function cover({imageLinks: {thumbnail}}) {
   return {width: 128,

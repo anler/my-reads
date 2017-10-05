@@ -1,0 +1,842 @@
+{
+  "books": [
+    {
+      "title": "My Football Book",
+      "authors": [
+        "Gail Gibbons"
+      ],
+      "publisher": "Harper Collins",
+      "publishedDate": "2000-08-22",
+      "description": "Football is fun--let's play! Find all the basics in this lively guide. The markings on a football field What football players wear The positions, from quarterback to wide receiver The excitement of the kickoff The thrill of scoring a touchdown All these and more are included with a useful glossary at the end.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780688171391"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0688171397"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 24,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "averageRating": 3,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=PLS_c2v7gP0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=PLS_c2v7gP0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=PLS_c2v7gP0C&printsec=frontcover&dq=football&hl=&cd=1&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=PLS_c2v7gP0C&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/My_Football_Book.html?hl=&id=PLS_c2v7gP0C",
+      "id": "PLS_c2v7gP0C"
+    },
+    {
+      "title": "Against Football",
+      "subtitle": "One Fan's Reluctant Manifesto",
+      "authors": [
+        "Steve Almond"
+      ],
+      "publisher": "Melville House",
+      "publishedDate": "2014-08-26",
+      "description": "A New York Times Best Seller “Powerful...an important read.\" —Publishers Weekly New York Times bestselling author Steve Almond takes on America’s biggest sacred cow: football In Against Football, Steve Almond details why, after forty years as a fan, he can no longer watch the game he still loves. Using a synthesis of memoir, reportage, and cultural critique, Almond asks a series of provocative questions: • Does our addiction to football foster a tolerance for violence, greed, racism, and homophobia? • What does it mean that our society has transmuted the intuitive physical joys of childhood—run, leap, throw, tackle—into a billion-dollar industry? • How did a sport that causes brain damage become such an important emblem for our institutions of higher learning? There has never been a book that exposes the dark underside of America’s favorite game with such searing candor.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781612194165"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1612194168"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 160,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "averageRating": 3.5,
+      "ratingsCount": 3,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.1.1.0.preview.2",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Xi34AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Xi34AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Xi34AwAAQBAJ&printsec=frontcover&dq=football&hl=&cd=2&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=Xi34AwAAQBAJ&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Against_Football.html?hl=&id=Xi34AwAAQBAJ",
+      "id": "Xi34AwAAQBAJ"
+    },
+    {
+      "title": "Football",
+      "authors": [
+        "Ray McClellan"
+      ],
+      "publisher": "Bellwether Media",
+      "publishedDate": "2013-08-01",
+      "description": "Football is a hard-hitting game. From games in the back yard to high school to the NFL, people love to play and watch football. Kids will learn the history, basic rules, and equipment of football, as well as how the game is played today.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781612113364"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1612113362"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 24,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "0.1.0.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=YpknWQLzVA4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=YpknWQLzVA4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=YpknWQLzVA4C&printsec=frontcover&dq=football&hl=&cd=3&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=YpknWQLzVA4C&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-YpknWQLzVA4C",
+      "id": "YpknWQLzVA4C"
+    },
+    {
+      "title": "Football",
+      "subtitle": "The Math of the Game",
+      "authors": [
+        "Shane Frederick"
+      ],
+      "publisher": "Capstone",
+      "publishedDate": "2011",
+      "description": "\"Presents the mathematical concepts involved with the sport of football\"--Provided by publisher.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781429673198"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1429673192"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 48,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.1.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=4ymVpRiXsMIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=4ymVpRiXsMIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=4ymVpRiXsMIC&printsec=frontcover&dq=football&hl=&cd=4&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=4ymVpRiXsMIC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football.html?hl=&id=4ymVpRiXsMIC",
+      "id": "4ymVpRiXsMIC"
+    },
+    {
+      "title": "Football Kicking and Punting",
+      "publisher": "Human Kinetics",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781450407588"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1450407587"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.4.3.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=gW6yXkPWhfcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=gW6yXkPWhfcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=gW6yXkPWhfcC&printsec=frontcover&dq=football&hl=&cd=5&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=gW6yXkPWhfcC&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-gW6yXkPWhfcC",
+      "id": "gW6yXkPWhfcC"
+    },
+    {
+      "title": "Football English",
+      "subtitle": "Soccer Vocabulary for Learners of English",
+      "authors": [
+        "Tom Challenger"
+      ],
+      "publisher": "Tom Challenger",
+      "publishedDate": "2012",
+      "description": "Who is this book for? For learners of English who want to talk about football (soccer) in English. Written for football (soccer) players, football fans and football officials (referees, managers, coaches, administrators etc.) It is suitable for anyone who has at least an intermediate level of English (i.e. above B1 in reading) What topics does it cover? Football English contains exercises to help you improve your vocabulary in these areas: Kicking & Moving the Ball Positions Describing a Game Attacking Defending Tactics The Rules & The Referee The Score & Results Scoring Goals Shooting Skills & Abilities Management & Signings Chances Form Statistics Team Selection The World Cup The League Football Grounds & The Pitch Mistakes Training Calls Injuries Fans The Goal Fixtures Goalkeeping Heading Timing Who is the Author? Tom Challenger is a teacher of English as a Foreign Language. He has 10 years of experience helping people with the vocabulary and skills they need to do their particular jobs. Tom holds professional qualifications in teaching English and is a certified teacher trainer. He is also a football fan \"",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9783950338201"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "3950338209"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 116,
+      "printType": "BOOK",
+      "categories": [
+        "English language"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.1.0.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=IavjmQ5t8XwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=IavjmQ5t8XwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=IavjmQ5t8XwC&printsec=frontcover&dq=football&hl=&cd=6&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=IavjmQ5t8XwC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football_English.html?hl=&id=IavjmQ5t8XwC",
+      "id": "IavjmQ5t8XwC"
+    },
+    {
+      "title": "Football's Best Offensive Playbook",
+      "authors": [
+        "Dwight Hawkes"
+      ],
+      "publisher": "Human Kinetics",
+      "publishedDate": "1995",
+      "description": "Gathers offensive plays used by successful high school and college teams, lists player assignments for each play, and discusses strategy and coaching",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0873225740"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780873225748"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 131,
+      "printType": "BOOK",
+      "categories": [
+        "Fiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.0.0.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=N1JSk1GjlEEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=N1JSk1GjlEEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=N1JSk1GjlEEC&printsec=frontcover&dq=football&hl=&cd=7&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=N1JSk1GjlEEC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football_s_Best_Offensive_Playbook.html?hl=&id=N1JSk1GjlEEC",
+      "id": "N1JSk1GjlEEC"
+    },
+    {
+      "title": "The Origins and Development of Football in Ireland",
+      "subtitle": "Being a Reprint of R.M. Peter's Irish Football Annual of 1880",
+      "authors": [
+        "Richard M. Peter",
+        "Neal Garnham"
+      ],
+      "publisher": "Ulster Historical Foundation",
+      "publishedDate": "1999",
+      "description": "Football, be it Gaelic, rugby, or soccer is unquestionably the most popular team sport in Ireland. Surprisingly, the modern codes of Gaelic, Rugby, and Assocation football in Ireland are little more than a century old. R.M. Peter's pioneering Annual was published in 1880. Reproduced here, it provides voluminous detail on more than 600 players and 50 clubs of the time: it is a mine of information for the sports enthusiast, the historian, the genealogist alike.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0901905933"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780901905932"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 178,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=oeaoZHiDaxoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=oeaoZHiDaxoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=oeaoZHiDaxoC&printsec=frontcover&dq=football&hl=&cd=8&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=oeaoZHiDaxoC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Origins_and_Development_of_Football.html?hl=&id=oeaoZHiDaxoC",
+      "id": "oeaoZHiDaxoC"
+    },
+    {
+      "title": "Football Rules Illustrated",
+      "authors": [
+        "George Sullivan"
+      ],
+      "publisher": "Simon and Schuster",
+      "publishedDate": "1985-07-02",
+      "description": "Time-outs, substitutions, kick-offs, line of scrimmage, fair catches, fouls and penalties, and scoring are among the topics discussed in a guide to official football rules",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780671612955"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0671612956"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 95,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Dop99ptNfEUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Dop99ptNfEUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Dop99ptNfEUC&printsec=frontcover&dq=football&hl=&cd=9&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=Dop99ptNfEUC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football_Rules_Illustrated.html?hl=&id=Dop99ptNfEUC",
+      "id": "Dop99ptNfEUC"
+    },
+    {
+      "title": "Who Owns Football?",
+      "subtitle": "The Governance and Management of the Club Game Worldwide",
+      "authors": [
+        "David Hassan"
+      ],
+      "publishedDate": "2011",
+      "description": "The commercialization of sport since the 1990s has had a number of consequences. The market forces that have defined commercialization, notably pay-per-view television, whilst initially welcomed as important new sources of revenue, have also had the unanticipated consequences of de-stabilizing many sporting competitions and institutions, undermining the financial future of clubs in their traditional role as key social and cultural institutions. This has been manifested in the paradox of chronic financial loss-making amongst professional sports' clubs in an era of exponential revenue growth, a trend exemplified by the experience of Italy's Series A and the English Premier League - both cases examined in detail in this book. But, at the same time, some traditional sporting organizations have sought with some success, to chart a middle way, retaining traditional sporting movement objectives whilst also embracing a form of commercialism. The Gaelic Athletic Association in Ireland, the supporter-owned FC Barcelona football club, and New Zealand rugby union, offer illustrative examples of such strategies examined in detail. This book explores the background to this clash of commercial and traditional sporting objectives, and debates the consequences for wider sports governance. This book was published as a special issue of Soccer and Society.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0415445701"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780415445702"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 167,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=gYshPQAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=gYshPQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=gYshPQAACAAJ&dq=football&hl=&cd=10&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=gYshPQAACAAJ&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Who_Owns_Football.html?hl=&id=gYshPQAACAAJ",
+      "id": "gYshPQAACAAJ"
+    },
+    {
+      "title": "Passion of the People?",
+      "subtitle": "Football in South America",
+      "authors": [
+        "Tony Mason"
+      ],
+      "publisher": "Verso",
+      "publishedDate": "1995-01",
+      "description": "Brazil's victory in the 1994 World Cup is the latest chapter in an extensive history of the world's most popular game in South America. In this engaging account, Tony Mason reviews the place of football in Argentina, Brazil and Uruguay. Mason opens with soccer's rise at the turn of the century amidst the exploding urbanization of Buenos Aires, Montevideo, Rio de Janeiro and Sao Paulo. He demonstrates that, from its beginnings, the game had wide popular appeal and examines the role of British commercial and military interests as well as that of newcomers from Italy, Spain and Portugal. From the moment when Uruguay won the Olyimpic football tournament in 1924 to Argentina's bizarre appearance in the World Cup final of 1990, international success on the pitch brought with it prestige and influence abroad. At home, Mason shows how dictators used football to ensure political passivity. He concludes by asking if the attention focused on football in Latin America today is exaggerated or whether the game truly is the 'passion of the people'.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0860914038"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780860914037"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 174,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "averageRating": 3,
+      "ratingsCount": 2,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.1.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=iIN81fOaLdkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=iIN81fOaLdkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=iIN81fOaLdkC&printsec=frontcover&dq=football&hl=&cd=11&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=iIN81fOaLdkC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Passion_of_the_People.html?hl=&id=iIN81fOaLdkC",
+      "id": "iIN81fOaLdkC"
+    },
+    {
+      "title": "Fanatics!",
+      "subtitle": "Power, Identity, and Fandom in Football",
+      "authors": [
+        "Adam Brown"
+      ],
+      "publisher": "Psychology Press",
+      "publishedDate": "1998",
+      "description": "Embracing studies of football fans across Europe, this book tackles questions of power, national and regional identities, and race and racism, highlighting the changing role of fans in the game. Combining new approaches to the study of fan culture with critical assessments of the commercialization of the game, this fascinating book offers a comprehensive and timely examination of the state of European football supporters culture as the game prepares itself for the next millennium. The contributors, all leading figures in sports studies, consider: * whether football remains the peoples game, or if it is now run entirely by and for club owners and directors who have overseen the flotation of clubs on the stock exchange, a new focus on merchandising and the escalation of players salaries * the role of FIFA and UEFA in the struggle for control of world football * manifestations of racism and extreme nationalism in football, from the English medias xenophobic coverage of Euro 96 to the demonisation of Eric Cantona * media representations of national identity in football coverage in Germany, France and Spain * the interplay of national, religious and club identities among fans in England, Scotland, Ireland, Portugal and Scandinavia * the role of the law in regulating football * the future for supporters at a time when watching the match is more likely to mean turning on the television than going to a football ground.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0415181038"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780415181037"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 289,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "averageRating": 5,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=Q1CHBFbxKXYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=Q1CHBFbxKXYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=Q1CHBFbxKXYC&printsec=frontcover&dq=football&hl=&cd=12&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=Q1CHBFbxKXYC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Fanatics.html?hl=&id=Q1CHBFbxKXYC",
+      "id": "Q1CHBFbxKXYC"
+    },
+    {
+      "title": "Football: The First Hundred Years",
+      "subtitle": "The Untold Story",
+      "authors": [
+        "Adrian Harvey"
+      ],
+      "publisher": "Routledge",
+      "publishedDate": "2013-05-13",
+      "description": "The story of the creation of Britain's national game has often been told. According to the accepted wisdom, the refined football games created by English public schools in the 1860s subsequently became the sports of the masses. Football, The First Hundred Years, provides a revisionist history of the game, challenging previously widely-accepted beliefs. Harvey argues that established football history does not correspond with the facts. Football, as played by the 'masses' prior to the adoption of the public school codes is almost always portrayed as wild and barbaric. This view may require considerable modification in the light of Harvey's research. Football's First One Hundred Years provides a very detailed picture of the football played outside the confines of the public schools, revealing a culture that was every bit as sophisticated and influential as that found within their prestigious walls. Football, The First Hundred Years sets forth a completely revisionist thesis, offering a different perspective on almost every aspect of the established history of the formative years of the game. The book will be of great interest to sports historians and football enthusiasts alike.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781134269129"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1134269129"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 320,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "2.7.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=aH1PpJFygvsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=aH1PpJFygvsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=aH1PpJFygvsC&printsec=frontcover&dq=football&hl=&cd=13&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=aH1PpJFygvsC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football_The_First_Hundred_Years.html?hl=&id=aH1PpJFygvsC",
+      "id": "aH1PpJFygvsC"
+    },
+    {
+      "title": "The Everything Kids' Football Book",
+      "subtitle": "All-Time Greats, Legendary Teams, and Today's Favorite Players--With Tips on Playing Like a Pro",
+      "authors": [
+        "Greg Jacobs",
+        "LLC STATS"
+      ],
+      "publisher": "Adams Media",
+      "publishedDate": "2014-07-15",
+      "description": "Get in the zone! Do you know: What a zone blitz is? Which team has won the most Super Bowls? What a flea flicker is? Who was the MVP of the first Super Bowl? Open up to find the answers to all these questions and more! Filled with the latest stats, tackle-worthy trivia, and 30 fun puzzles, this guide to the gridiron tells you all about: The history of football Football stats and record holders How to predict which teams will make it to the Super Bowl Mapping out on-field strategies How to develop your football skills Fantasy football teams and more! Whether you're new to the sport or a longtime fan, this book has it all! It's got all the fun facts about football heroes, memorable games, and legendary plays, and coaches you on the tactics of the game so you can make those first downs like a pro!",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781440572555"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1440572550"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 144,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.1.1.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=YdGRBAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=YdGRBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=YdGRBAAAQBAJ&printsec=frontcover&dq=football&hl=&cd=14&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=YdGRBAAAQBAJ&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Everything_Kids_Football_Book.html?hl=&id=YdGRBAAAQBAJ",
+      "id": "YdGRBAAAQBAJ"
+    },
+    {
+      "title": "Football",
+      "subtitle": "How It Works",
+      "authors": [
+        "Agnieszka Biskup"
+      ],
+      "publisher": "Capstone",
+      "publishedDate": "2010-01-01",
+      "description": "\"Describes the science behind the sport of football, including offense, defense, special teams, and arenas\"--Provided by publisher.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781429640220"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1429640227"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 48,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=3C_6mWFesw0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=3C_6mWFesw0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=3C_6mWFesw0C&printsec=frontcover&dq=football&hl=&cd=15&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=3C_6mWFesw0C&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football.html?hl=&id=3C_6mWFesw0C",
+      "id": "3C_6mWFesw0C"
+    },
+    {
+      "title": "All about Football",
+      "authors": [
+        "George Sullivan"
+      ],
+      "publisher": "Penguin",
+      "publishedDate": "1990-08-02",
+      "description": "Explains the game of football, presenting its history and profiles of leading players.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781101127742"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1101127740"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": false
+      },
+      "pageCount": 128,
+      "printType": "BOOK",
+      "categories": [
+        "Juvenile Nonfiction"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "0.0.2.0.preview.2",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=wnP6RJ1Pqf4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=wnP6RJ1Pqf4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=wnP6RJ1Pqf4C&printsec=frontcover&dq=football&hl=&cd=16&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=wnP6RJ1Pqf4C&source=gbs_api",
+      "canonicalVolumeLink": "https://market.android.com/details?id=book-wnP6RJ1Pqf4C",
+      "id": "wnP6RJ1Pqf4C"
+    },
+    {
+      "title": "Complete Conditioning for Football",
+      "authors": [
+        "Pat Ivey",
+        "Josh Stoner"
+      ],
+      "publisher": "Human Kinetics",
+      "publishedDate": "2012",
+      "description": "Outlines a program of training and physical conditioning for football players and coaches; suggests drills to improve speed, strength, and the skills necessary for each position; and discusses in and out of season workout schedules.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9780736093194"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "0736093192"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 252,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "preview-1.0.0",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=WNMDyHiXopQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=WNMDyHiXopQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=WNMDyHiXopQC&printsec=frontcover&dq=football&hl=&cd=17&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=WNMDyHiXopQC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Complete_Conditioning_for_Football.html?hl=&id=WNMDyHiXopQC",
+      "id": "WNMDyHiXopQC"
+    },
+    {
+      "title": "Football's Stars of Summer",
+      "subtitle": "A History of the College All-Star Football Game Series of 1934-1976",
+      "authors": [
+        "Raymond Schmidt"
+      ],
+      "publisher": "Scarecrow Press",
+      "publishedDate": "2001",
+      "description": "Football's Stars of Summer reviews each year of this classic series, including the excitement of selecting the college players; the frequent battles between the two sides over game rules; and the All-Stars' grueling pre-game training camps in the heat of summer, that often produced plenty of surprises for everyone.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0810840278"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780810840270"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 345,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.1.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=xiwH3cf5DvQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=xiwH3cf5DvQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=xiwH3cf5DvQC&printsec=frontcover&dq=football&hl=&cd=18&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=xiwH3cf5DvQC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football_s_Stars_of_Summer.html?hl=&id=xiwH3cf5DvQC",
+      "id": "xiwH3cf5DvQC"
+    },
+    {
+      "title": "Blue Collar Mentality",
+      "subtitle": "Boise State's Rise to Football Prominence",
+      "authors": [
+        "Tom Barbour"
+      ],
+      "publisher": "Tate Publishing",
+      "publishedDate": "2010-01",
+      "description": "When the Boise State University football team rushed onto the field to take on the University of Oklahoma Sooners in the 2007 Fiesta Bowl, the Broncos were in a position to begin a new tradition, or be party to an old one. That day was the culmination of a meteoric rise for a school essentially still making the transition to Division I football. From its humble beginnings as Boise Junior College to its status as a perennial top 25 team, author Tom Barbour follows the Broncos as they ascend to national prominence in his book, Blue Collar Mentality. Through meticulous research and individual interviews, Tom discovers what makes up a football program relying on a Blue Collar Mentality, rather than blue chip players to find itself, year after year, in the hunt for a top 10 ranking and a major bowl berth.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781615664221"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "161566422X"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 205,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.2.0.preview.3",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=755FKBCSDL0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=755FKBCSDL0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=755FKBCSDL0C&printsec=frontcover&dq=football&hl=&cd=19&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=755FKBCSDL0C&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Blue_Collar_Mentality.html?hl=&id=755FKBCSDL0C",
+      "id": "755FKBCSDL0C"
+    },
+    {
+      "title": "Football",
+      "subtitle": "The Ivy League Origins of an American Obsession",
+      "authors": [
+        "Mark F. Bernstein"
+      ],
+      "publisher": "University of Pennsylvania Press",
+      "publishedDate": "2001-08-22",
+      "description": "Every autumn American football fans pack large college stadiums or crowd around grassy fields to root for their favorite teams. Most are unaware that this most popular American sport was created by the teams that now make up the Ivy League. From the day Princeton played the first intercollegiate game in 1869, these major schools of the northeast--Brown, Columbia, Cornell, Dartmouth, Harvard, Pennsylvania, Princeton, and Yale--shaped football as we now know it. Almost every facet of the game still bears their imprint: they created the All-America team, produced the first coaches, devised the basic rules, invented many of the strategies, developed much of the equipment, and even named the positions. Both the Heisman and Outland trophies are named for Ivy League players. Crowds of 80,000 no longer attend Ivy League games as they did seventy years ago, and Ivy teams are not the powerhouses they once were, but at times they can still be a step ahead of the rest of football, as in 1973 when Brown and Penn started the first black quarterbacks to face each other in major college history. In this rich history, Bernstein shows that much of the culture that surrounds American football, both good and bad, has its roots in the Ivy League. The college fight song is an Ivy League creation (Yale's was written by Cole Porter), as are the marching bands that play them. With their long winning streaks and impressive victories, Ivy teams started a national obsession with football in the first decades of the twentieth century that remains alive today. But football was almost abolished early on because of violence in Ivy games, and it took President Theodore Roosevelt to mediate disagreements about rough play in order for football to remain a college sport. Gambling and ticket scalping were as commonplace then as now, as well as payoffs and recruiting abuses, fueled by the tremendous amount of money generated by the games, revenue that was oftentimes greater than that collected by the rest of the university. But the Ivy teams confronted those abuses, and in so doing helped develop our ideals about the role of athletics in college life. Although Ivy League football and its ancient rivalries have disappeared from big-time sports by their own accord, their legacy remains with every snap of the ball.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "0812236270"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9780812236279"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 336,
+      "printType": "BOOK",
+      "categories": [
+        "Sports & Recreation"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.0.1.0.preview.1",
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=n3i4KOu7MiEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=n3i4KOu7MiEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.com/books?id=n3i4KOu7MiEC&printsec=frontcover&dq=football&hl=&cd=20&source=gbs_api",
+      "infoLink": "http://books.google.com/books?id=n3i4KOu7MiEC&dq=football&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Football.html?hl=&id=n3i4KOu7MiEC",
+      "id": "n3i4KOu7MiEC"
+    }
+  ]
+}

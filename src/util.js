@@ -1,8 +1,5 @@
-export const ignore = (msg) => {
-  console.warn(msg)
-  return () => {}
-}
- 
+/* global URLSearchParams */
+
 export const getQueryParam = (queryString, param, defaultValue) =>
   (new URLSearchParams(queryString)).get(param) || defaultValue || ""
 

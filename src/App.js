@@ -3,111 +3,100 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import HomePage from './HomePage'
 import SearchPage from './SearchPage'
 import NotFoundPage from './NotFoundPage'
-import Loading from './Loading'
-
-import * as BooksApi from './BooksApi'
-import {getQueryParam, updateQueryParam} from './util'
 
 import './App.css'
 
-const emptyShelfs = () => ({
+const emptyShelf = () => ({
   currentlyReading: [],
   wantToRead: [],
-  read: []
+  read: [],
+  none: []
 })
 
-
 class App extends React.Component {
-  state = {
-    shelfs: emptyShelfs(),
-    shelfsLoaded: false,
-    lastQuery: "",
-    searchResults: []
-  }
-
-  queryParam = "q"
-  maxResults = 50
-
-  componentDidMount() {
-    // BooksApi.getAll().then((books) => {
-    //   const shelfs = books.reduce((acc, book) => {
-    //     acc[book.shelf].push(book)
-    //     return acc
-    //   }, emptyShelfs())
-
-    //   this.setState({shelfs, fetching: false})
-    // })
-  }
-
-  changeShelf(book, newShelf) {
-    console.log(`Moving book ${book.title} to shelf ${newShelf}`);
-  }
-
-  searchBooks(query, history) {
-    if (query !== this.state.lastQuery) {
-      BooksApi.search(query, this.maxResults).then((books) => {
-        const currentQuery = getQueryParam(history.location.search, this.queryParam)
-        if (currentQuery === query) {
-          console.log("this set state");
-          this.setState({searchResults: books || [], lastQuery: currentQuery})
-        }
-      })
+  constructor(props) {
+    super(props)
+    this.state = {
+      initialized: false,
+      booksIndex: {},
+      shelfsIndex: {...emptyShelf()}
     }
   }
 
-  updateSearch(query, history) {
-    history.replace({search: updateQueryParam(history.location.search, this.queryParam, query)})
+  storeBooks(books) {
+    const booksIndex = {}
+    const shelfsIndex = {...emptyShelf()}
+    books.forEach((book) => {
+      booksIndex[book.id] = book
+      shelfsIndex[book.shelf].push(book)
+    })
+    this.setState({booksIndex, shelfsIndex, initialized: true})
   }
 
-  loading(condition, message, render) {
-    return condition ? () => <Loading message={message}/> : render.bind(this)
-  }
-
-  renderHomePage() {
-    // BooksApi.getAll().then((books) => {
-    //   const shelfs = books.reduce((acc, book) => {
-    //     acc[book.shelf].push(book)
-    //     return acc
-    //   }, emptyShelfs())
-
-    //   this.setState({shelfs, fetching: false})
-    // })
-    console.log(this.state.shelfsLoaded);
-    if (!this.state.shelfsLoaded) {
-      this.setState({shelfsLoaded: true})
+  changeBookShelf(book, newShelf, oldShelf) {
+    console.log('change book shelf...');
+    const booksIndex = {
+      ...this.state.booksIndex,
+      [book.id]: book
     }
-    return (
-      <HomePage currentlyReading={this.state.shelfs.currentlyReading}
-                read={this.state.shelfs.read}
-                wantToRead={this.state.shelfs.wantToRead}
-                onChange={this.changeShelf}/>
-    )
+    const shelfsIndex = {
+      ...this.state.shelfsIndex,
+      [newShelf]: this.state.shelfsIndex[newShelf].filter((otherBook) => otherBook.id !== book.id).concat([book]),
+      [oldShelf]: this.state.shelfsIndex[oldShelf].filter((otherBook) => otherBook.id !== book.id)
+    }
+    if (newShelf === "none") {
+      delete booksIndex[book.id]
+      shelfsIndex["none"] = []
+    }
+    this.setState({booksIndex, shelfsIndex})
   }
 
-  renderSearchPage({location, history}) {
-    const query = getQueryParam(location.search, this.queryParam)
-    this.searchBooks(query, history)
+  getShelf(shelfName) {
+    return this.state.shelfsIndex[shelfName].slice()
+  }
+  getCurrentlyReading() {
+    return this.getShelf("currentlyReading")
+  }
+  getWantToRead() {
+    return this.getShelf("wantToRead")
+  }
+  getRead() {
+    return this.getShelf("read")
+  }
+  findBookShelf(book) {
+    const shelfBook = this.state.booksIndex[book.id]
+    if (shelfBook) {
+      return shelfBook.shelf
+    }
+    return null
+  }
 
-    return (
-      <SearchPage books={this.state.searchResults}
-                  onChange={this.changeShelf}
-                  query={query}
-                  onSearch={(query) => this.updateSearch(query, history)}
-                  />
-    )
+  getDb() {
+    const {storeBooks,
+           changeBookShelf,
+           getCurrentlyReading,
+           getWantToRead,
+           getRead,
+           findBookShelf} = this
+    return {
+      storeBooks: storeBooks.bind(this),
+      changeBookShelf: changeBookShelf.bind(this),
+      getCurrentlyReading: getCurrentlyReading.bind(this),
+      getWantToRead: getWantToRead.bind(this),
+      getRead: getRead.bind(this),
+      findBookShelf: findBookShelf.bind(this),
+      initialized: this.state.initialized
+    }
   }
 
   render() {
+    const db = this.getDb()
     return (
       <BrowserRouter>
         <div className="app">
           <Switch>
-            <Route exact path="/"
-                   render={this.renderHomePage.bind(this)}
-                   />
-            <Route exact path="/search"
-                   render={this.renderSearchPage.bind(this)}
-                   />
+            <Route exact path="/" render={(props) => <HomePage db={db} {...props}/>}/>
+            <Route exact path="/search" render={(props) => <SearchPage db={db} {...props}/>}/>
             <Route component={NotFoundPage}/>
           </Switch>
         </div>
